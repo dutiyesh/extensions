@@ -1,0 +1,135 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ul {
+  list-style: none; }
+
+a {
+  color: #1b56fb;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+input {
+  font-family: inherit; }
+
+input[type="text"],
+button {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 0;
+  box-shadow: none; }
+
+button {
+  cursor: pointer; }
+
+input:focus,
+button:focus {
+  outline: none; }
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-size: 14px;
+  color: #345;
+  background-color: #f1f3f5; }
+
+h1 {
+  font-size: 24px; }
+
+h2 {
+  font-size: 22px; }
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px; }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 900px;
+      width: 900px; } }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1100px;
+      width: 1100px; } }
+
+/* section */
+.section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+.section-body {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column; }
+  @media (min-width: 992px) {
+    .section-body {
+      align-items: center;
+      flex-direction: row; } }
+
+/* information container */
+.info-container {
+  margin-bottom: 40px; }
+  @media (min-width: 992px) {
+    .info-container {
+      width: 30%;
+      padding-right: 10px;
+      margin-bottom: 0; } }
+
+.info-title {
+  font-size: 26px;
+  margin-bottom: 10px; }
+
+/* repository details container */
+@media (min-width: 992px) {
+  .repository-container {
+    width: 70%;
+    padding-left: 10px; } }
+
+.repository-type-heading {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px; }
+
+/* repository list */
+.repository-list-item {
+  width: 100%;
+  margin-bottom: 25px; }
+  .repository-list-item:last-child {
+    margin-bottom: 0; }
+
+/* repository card */
+.repository-card-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px; }
+  .repository-card-title a {
+    color: #745fb5;
+    border-bottom: 1px dashed; }
+    .repository-card-title a:hover {
+      color: #5f4e94; }
+
+.repository-card-desc {
+  font-size: 16px;
+  margin-bottom: 7px; }
+
+.repository-card-footer-link {
+  font-size: 14px; }
+
+/* repfooter footer list */
+.repository-card-footer-list-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px; }
+  .repository-card-footer-list-item:last-child {
+    margin-right: 0; }
+
+.is-coming-soon {
+  opacity: .5;
+  pointer-events: none; }

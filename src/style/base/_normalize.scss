@@ -1,0 +1,41 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #1b56fb;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+input {
+  font-family: inherit;
+}
+
+input[type="text"],
+button {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
