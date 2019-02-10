@@ -13,14 +13,14 @@ const PATH = {
   SRC: {
     APP: sourceFolder,
     HTML: sourceFolder + '/*.html',
-	ASSETS: sourceFolder + '/assets/*',
+    ASSETS: sourceFolder + '/assets/*',
     STYLE: sourceFolder + '/style/*.scss'
   },
 
   DIST: {
     APP: distFolder,
     HTML: distFolder + '/',
-	ASSETS: distFolder + '/assets/',
+    ASSETS: distFolder + '/assets/',
     STYLE: distFolder + '/style/'
   }
 };
@@ -80,7 +80,7 @@ gulp.task('default', function () {
   runSequence(
     'clean',
     'html',
-	'assets',
+    'assets',
     'sass'
   );
 });
