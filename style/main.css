@@ -9,7 +9,7 @@ ul {
   list-style: none; }
 
 a {
-  color: #1b56fb;
+  color: #3182ce;
   text-decoration: none; }
   a:hover {
     text-decoration: none; }
@@ -32,10 +32,10 @@ button:focus {
   outline: none; }
 
 body {
-  font-family: "Segoe UI", Tahoma, sans-serif;
+  font-family: system-ui, -apple-system, "Segoe UI", Tahoma, sans-serif;
   font-size: 14px;
   color: #345;
-  background-color: #f1f3f5; }
+  background-color: #fff; }
 
 h1 {
   font-size: 24px; }
@@ -95,18 +95,18 @@ h2 {
 .repository-type-heading {
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 20px; }
+  margin-bottom: 30px; }
 
 /* repository list */
 .repository-list-item {
   width: 100%;
-  margin-bottom: 25px; }
+  margin-bottom: 35px; }
   .repository-list-item:last-child {
     margin-bottom: 0; }
 
 /* repository card */
 .repository-card-title {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px; }
   .repository-card-title a {
