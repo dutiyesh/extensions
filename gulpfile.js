@@ -12,7 +12,7 @@ const distFolder = "dist";
 const PATH = {
   SRC: {
     APP: sourceFolder,
-    HTML: sourceFolder + "/*.html",
+    HTML: sourceFolder + "/**/*.html",
     ASSETS: sourceFolder + "/assets/*",
     STYLE: sourceFolder + "/style/*.scss",
   },
