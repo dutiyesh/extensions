@@ -1,21 +1,20 @@
-@import './base/_index.scss';
+@import "./base/_index.scss";
 
 .container {
   width: 100%;
   margin: 0 auto;
   padding: 20px;
-  
+
   @media (min-width: 992px) {
     max-width: 900px;
     width: 900px;
   }
-  
+
   @media (min-width: 1200px) {
     max-width: 1100px;
     width: 1100px;
   }
 }
-
 
 /* section */
 
@@ -38,8 +37,6 @@
   }
 }
 
-
-
 /* information container */
 
 .info-container {
@@ -57,8 +54,6 @@
   margin-bottom: 10px;
 }
 
-
-
 /* repository details container */
 
 .repository-container {
@@ -74,18 +69,16 @@
   margin-bottom: 20px;
 }
 
-
 /* repository list */
 
 .repository-list-item {
   width: 100%;
   margin-bottom: 25px;
-  
+
   &:last-child {
     margin-bottom: 0;
   }
 }
-
 
 /* repository card */
 
@@ -93,7 +86,7 @@
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 10px;
-  
+
   a {
     border-bottom: 1px dashed;
   }
@@ -108,20 +101,19 @@
   font-size: 14px;
 }
 
-
 /* repfooter footer list */
 
 .repository-card-footer-list-item {
   display: inline-block;
   vertical-align: top;
   margin-right: 30px;
-  
+
   &:last-child {
     margin-right: 0;
   }
 }
 
 .is-coming-soon {
-  opacity: .5;
+  opacity: 0.5;
   pointer-events: none;
 }
